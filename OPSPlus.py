@@ -1,7 +1,8 @@
 """
 Author: Austin Snodgrass
-Name: OPS+ Calcualator
+Name: OPS+ Calculator
 Purpose: Take user input and use it to calculate players OBP, Slugging and OPS+
+Date: 04/24/2023
 """
 
 #Retrieving user input to calculate player statistics

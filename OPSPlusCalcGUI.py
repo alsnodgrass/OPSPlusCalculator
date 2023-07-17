@@ -12,7 +12,7 @@ psg.theme('DarkRed2')
 
 #Setting message for user to provide data used for calculations
 user_message = [
-    [psg.Text('Statistical calculations use a league OBP of .320 and a league Slugging of .402', text_color = 'white')]
+    [psg.Text('Calculations use a league OBP of .320 and a league Slugging of .411.\nAccurate as of 07/17/2023', text_color = 'white')]
 ]
 
 #Settings up input boxes with references to allow user statistical input
@@ -113,7 +113,7 @@ def calculate():
     atBats = float(values['ATBATS'])
 
     leagueOnBase = 0.320
-    leagueSlugging = 0.402
+    leagueSlugging = 0.411
 
     onBase = round((hits + walks + hbp) / (atBats + walks + hbp + sacFlies), 3)
     slugging = round((singles + (doubles * 2) + (triples * 3) + (homeRuns * 4)) / atBats, 3)
